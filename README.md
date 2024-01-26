@@ -8,9 +8,11 @@ O arquivo do projeto pode ser encontrado em ```models/Estacionamento.cs```.
 
 A tecnologias utilizadas foram o C#, utilizando-se do .NET CORE e utilizando a IDE VSCode para seu desenvolvimento.
 
-#Estrutura
+# Estrutura
 
 Diagrama de classe estacionamento
+![image](https://github.com/JPsantosdev/ProjetoEstacionamentoDIO/assets/127047209/6a7e3385-6c80-4a12-becc-1f90fd95204e)
+
 A classe contém três variáveis, sendo:
 
 precoInicial: Tipo decimal. É o preço cobrado para deixar seu veículo estacionado.
