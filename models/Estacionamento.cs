@@ -31,7 +31,7 @@ namespace DesafioFundamentos.Models
             string placa = "";
             placa = Console.ReadLine();
 
-            // Verifica se o veículo existe
+            // Verifica se o veículo exist, passando como argumento a placa do veículo.
             if (veiculos.Any(x => x.ToUpper() == placa.ToUpper()))
             {
                 Console.WriteLine("Digite a quantidade de horas que o veículo permaneceu estacionado:");
@@ -50,6 +50,7 @@ namespace DesafioFundamentos.Models
             }
             else
             {
+                // Caso não for encontrado, retorna uma resposta de checagem.
                 Console.WriteLine("Desculpe, esse veículo não está estacionado aqui. Confira se digitou a placa corretamente");
             }
         }
