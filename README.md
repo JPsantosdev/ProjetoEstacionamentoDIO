@@ -10,8 +10,9 @@ A tecnologias utilizadas foram o C#, utilizando-se do .NET CORE e utilizando a I
 
 # Estrutura
 
-Diagrama de classe estacionamento
 ![image](https://github.com/JPsantosdev/ProjetoEstacionamentoDIO/assets/127047209/6a7e3385-6c80-4a12-becc-1f90fd95204e)
+
+Diagrama de classe estacionamento
 
 A classe contém três variáveis, sendo:
 
