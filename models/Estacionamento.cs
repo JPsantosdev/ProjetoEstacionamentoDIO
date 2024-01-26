@@ -2,7 +2,6 @@ namespace DesafioFundamentos.Models
 {
     public class Estacionamento
     {
-        string placa = "";
         private decimal precoInicial = 0;
         private decimal precoPorHora = 0;
         private List<string> veiculos = new List<string>();
