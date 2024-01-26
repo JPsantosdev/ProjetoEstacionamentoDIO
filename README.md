@@ -7,14 +7,3 @@ A aplicação busca simular o funcionamento de uma API de cobrança de um estaci
 O arquivo do projeto pode ser encontrado em ```models/Estacionamento.cs```. 
 
 A tecnologias utilizadas foram o C#, utilizando-se do .NET CORE e utilizando a IDE VSCode para seu desenvolvimento.
-
-Este projeto não utiliza uma camada de Modelo para desenvolvimento do objeto "carro", embora seja altamente recomendável para um projeto mais amplo e que segue as boas práticas de desenvolvimento.
-
-Em um projeto mais compexo, o objeto seria desenvolvido com a seguinte estrutura:
-```
-Carro {
-modelo: String,
-vaga_estacionada: String,
-horario_de_entrada: DateTime,
-horario_de_saida: DateTime
-}  
